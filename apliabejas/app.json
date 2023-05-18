@@ -28,7 +28,8 @@
       ]
     ],
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/55938504-7927-47be-b979-bb1e8df976f5"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -38,7 +39,10 @@
       "bundleIdentifier": "com.adrielpalestino.apliabejas",
       "UIBackgroundModes": [
         "audio"
-      ]
+      ],
+      "runtimeVersion": {
+        "policy": "sdkVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -48,10 +52,16 @@
       "package": "com.adrielpalestino.apliabejas",
       "permissions": [
         "android.permission.RECORD_AUDIO"
-      ]
+      ],
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "55938504-7927-47be-b979-bb1e8df976f5"
+      }
     }
   }
 }

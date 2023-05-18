@@ -1,0 +1,14 @@
+- Making sure project is set up correctly...
+- Making sure project is set up correctly...
+- Making sure project is set up correctly...
+- Making sure project is set up correctly...
+
+[14:56:01] expo build:android has been superseded by eas build. Learn more: https://blog.expo.dev/turtle-goes-out-to-sea-d334db2a6b60
+
+[14:56:01] Run the following:
+
+[14:56:01] › npm install -g eas-cli
+[14:56:01] › eas build -p android https://docs.expo.dev/build/setup/
+
+[14:56:01] expo build:android has been discontinued (January 4, 2023).
+

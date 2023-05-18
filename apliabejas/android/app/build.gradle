@@ -374,3 +374,8 @@ def isNewArchitectureEnabled() {
     // - Set an environment variable `ORG_GRADLE_PROJECT_newArchEnabled=true`
     return project.hasProperty("newArchEnabled") && project.newArchEnabled == "true"
 }
+// this l;ineas i'm add
+// plugins {
+//     // ... other plugins
+//     id 'kotlin-android'
+// }
